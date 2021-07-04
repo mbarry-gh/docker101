@@ -1,20 +1,10 @@
-# Kind Dev Cluster Template
+# Docker 101
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-> Setup a Kind Dev Cluster on Codespaces Template
+> Docker 101 - Hands-on with Docker CLI
 
 ## Overview
-
-This is a template that will setup a Kubernetes developer cluster using `Kind` and `GitHub Codespaces`
-
-Create your repo from this template and add your application code
-
-### Engineering Docs
-
-- Team Working [Agreement](.github/WorkingAgreement.md)
-- Team [Engineering Practices](.github/EngineeringPractices.md)
-- CSE Engineering Fundamentals [Playbook](https://github.com/Microsoft/code-with-engineering-playbook)
 
 ## How to file issues and get help  
 
