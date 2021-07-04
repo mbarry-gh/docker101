@@ -19,10 +19,6 @@ assignees: ''
 
 -
 
-## Additional Context
-
--
-
 ## Next Steps
 
 - [ ] Team consensus to proceed
