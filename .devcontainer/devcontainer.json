@@ -1,14 +1,18 @@
 {
-	"name": "akdc-kind",
-	"remoteUser": "akdc",
-	"image": "ghcr.io/retaildevcrews/kind:latest",
-	"runArgs": [
-		"--init",
-		"--privileged"
-	],
+	"name": "docker101",
+	"image": "ghcr.io/retaildevcrews/kind",
+	"runArgs": ["--init", "--privileged"],
 	"overrideCommand": false,
-	"settings": { },
-	"forwardPorts": [ ],
+
+	"remoteUser": "vscode",
+
+	"containerEnv":
+	{
+		"CosmosDatabase": "imdb",
+		"CosmosCollection": "movies",
+		"CosmosUrl": "https://ngsa-pre-cosmos.documents.azure.com:443/"
+	},
+
 	// Install extensions
 	"extensions": [
 		"davidanson.vscode-markdownlint",
@@ -17,6 +21,7 @@
 		"mutantdino.resourcemonitor",
 		"humao.rest-client"
 	],
+
 	// Run Bash script in .devcontainer directory
 	"postCreateCommand": "/bin/bash ./.devcontainer/post-install.sh"
 }
